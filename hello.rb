@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts "hello world, #{name}"
+name = ARGV[0]
+puts "hello, #{name}"
